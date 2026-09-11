@@ -1,0 +1,10 @@
+p = int(input("enter a P:"));
+R = int(input("enter a R:"));
+T = int(input("enter a T:"));
+print("P");
+print("R");
+print("T");
+SI = P*R*T/100;
+CI = P(1+R/100)T;
+print("Simple interest:",SI);
+print("Compond interest:",CI);
